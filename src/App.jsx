@@ -25,9 +25,9 @@ function App() {
       <About/>
       <KeyVerticals/>
       {/* <Eyes/>     
-      <Asia/>
+      <Asia/> */}
       <ScrollHorizontal/>
-      <Footer/> */}
+      {/* <Footer/> */}
     </div>
   )
 }
