@@ -5,7 +5,9 @@ import Asia from '../../assets/Asia.png'
 import Award from'../../assets/Award_1.jpeg'
 import DubaiAward from '../../assets/Dubai_Award.jpg'
 import Ministry from '../../assets/Ministry.jpg'
-
+import AOS from 'aos'; 
+import 'aos/dist/aos.css';
+AOS.init()
 
 
 function ScrollHorizontal() {
@@ -48,50 +50,58 @@ function ScrollHorizontal() {
       the animation should alway be two separated refs */}
       <div ref={triggerRef}>
         <div ref={sectionRef} className="scroll-section-inner">
-          <div className="scroll-section bg-zinc-900">
+          <div className="  bg-zinc-900 h-[100vh]">
+
+
+           <div className="scroll-section bg-zinc-200 lg:mr-100">
+              <div className="w-1/2 mr-52 pr-90 top-2">
+              <h1 data-aos="fade-down-right" className="text-4xl lg:text-8xl lg:mr-10 uppercase text-cyan-480 font-bold">THE</h1>
+              <h1 data-aos="fade-down-right" className="text-4xl lg:text-8xl uppercase text-black font-bold">results</h1>
+              <h1 data-aos="fade-down-right" className="text-4xl lg:text-8xl uppercase text-cyan-480 font-bold">can be</h1>
+              <h1 data-aos="fade-down-right" className="text-4xl lg:text-8xl uppercase text-cyan-480 font-bold">PRETTY</h1>
+              <h1 data-aos="fade-down-right" className="text-4xl lg:text-8xl uppercase text-cyan-480 font-bold">spectacular</h1>
+
+              </div>
+              </div>
+          </div>
+
+
+
+
+
+
+
+          <div className="scroll-section bg-zinc-900 flex">
            
-              <div className="w-1/2">
-              <h1 className="text-7xl uppercase text-cyan-400 font-bold">Great Place To Work</h1>
-              <h1 className="text-7xl uppercase text-white font-bold">Best Workplaces Asia</h1>
-              <h1 className="text-7xl uppercase text-cyan-400 font-bold">2024</h1>
-              </div>
+           <div className="w-1/2">
+           <h1 data-aos="zoom-in-up" className="text-4xl lg:text-7xl uppercase text-cyan-400 font-bold">Great Place To Work</h1>
+           <h1 data-aos="zoom-in-up" className="text-4xl lg:text-7xl uppercase text-white font-bold">Best Workplaces Asia</h1>
+           <h1 data-aos="zoom-in-up" className="text-4xl lg:text-7xl uppercase text-cyan-400 font-bold">2024</h1>
+           </div>
 
-              <div className="w-1/3 h-[70vh]">
-              <img src={Asia}></img>
+           <div className="w-1/3 h-[70vh]">
+           <img src={Asia}></img>
 
-              </div>
+           </div>
+
+       </div>
 
 
-          </div>
 
 
-          <div className="scroll-section bg-zinc-900 gap-20">
 
-          <div className="w-1/3 h-[60vh] ">
-              <img src={Award} className="rounded-3xl"></img>
-              </div>
 
-          <div className="w-1/2">
-              <h1 className="text-7xl uppercase text-green-400 font-bold">AWARDED</h1>
-              <h1 className="text-7xl uppercase text-green-400 font-bold">SUPERBRANDS</h1>
-              <h1 className="text-7xl uppercase text-green-400 font-bold">UAE'S CHOICE</h1>
+          <div className="scroll-section bg-zinc-900 gap-30 lg:w-50">
+          <div className="w-[50vh] h-[15vh] pl-20">
+              <img src={DubaiAward} className="rounded-3xl "></img>
 
               </div>
 
-              
-          </div>
-
-
-          <div className="scroll-section bg-zinc-900 gap-20">
-          <div className="w-1/3 h-[50vh] ">
-              <img src={DubaiAward} className="rounded-3xl"></img>
-              </div>
-
-          <div className="w-1/2">
-          <h1 className="text-7xl uppercase text-white font-bold">Winner of the year 2023</h1>
-              <h1 className="text-7xl uppercase text-green-400 font-bold">Dubai Quality</h1>
-              <h1 className="text-7xl uppercase text-green-400 font-bold">Appreciation</h1>
-              <h1 className="text-7xl uppercase text-green-400 font-bold">Award</h1>
+          <div className="w-[50%] lg:w-[100vh] p-4 pt-5">
+          <h1 className="text-4xl  lg:text-7xl uppercase text-white font-bold">Winner of the year 2023</h1>
+              <h1 data-aos="zoom-in-up" className="text-4xl  lg:text-7xl uppercase text-green-400 font-bold">Dubai Quality</h1>
+              <h1 data-aos="zoom-in-up" className="text-4xl  lg:text-7xl uppercase text-green-400 font-bold">Appreciation</h1>
+              <h1 data-aos="zoom-in-up" className="text-4xl lg:text-7xl uppercase text-green-400 font-bold">Award</h1>
 
               </div>
 
@@ -100,14 +110,14 @@ function ScrollHorizontal() {
 
 
           <div className="scroll-section bg-zinc-900 gap-20">
-          <div className="w-1/3 h-[50vh] ">
+          <div className="w-1/3 lg:h-[50vh]">
               <img src={Ministry} className="rounded-3xl"></img>
               </div>
 
-          <div className="w-1/2">
-          <h1 className="text-7xl uppercase text-orange-800 font-bold">Ministry Of Human </h1>
-              <h1 className="text-7xl uppercase text-zinc-600 font-bold">Resources</h1>
-              <h1 className="text-7xl uppercase text-white font-bold">& Emiratisation</h1>
+          <div className="w-[40%]">
+          <h1 className=" text-3xl lg:text-7xl uppercase text-orange-800 font-bold">Ministry Of Human </h1>
+              <h1 className=" text-3xl lg:text-7xl uppercase text-zinc-600 font-bold">Resources</h1>
+              <h1 className="text-3xl lg:text-7xl uppercase text-white font-bold">& Emiratisation</h1>
 
               </div>
           </div>

@@ -1,15 +1,19 @@
-import {motion} from 'framer-motion'
+import {animate, motion} from 'framer-motion'
 import Video1 from "../../../src/assets/Video1.mp4";
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 import React from 'react'
+import AOS from 'aos'; 
+import 'aos/dist/aos.css';
+AOS.init()
+
 
 function LandingPage() {
     
   return (
-    <div className='bg-zinc-900 p-10 pr-0 '>
-        <div className='bg-zinc-200 lg:ml-20 lg:p-0.4 mt-20 z-[1] rounded-l-lg '>
-    <div data-scroll data-scroll-section data-scroll-container data-scroll-speed="-.2" className='w-full'>
-        <div className='textstructure px-12 mt-2 mr-2'>
+    <div className='bg-zinc-900 p-10 pr-0 !scroll-smooth'>
+        <div  className='bg-zinc-200 lg:ml-20 lg:p-0.4 mt-20 z-[1] rounded-l-lg '>
+    <div className='w-full'>
+        <div data-aos="slide-left" className='textstructure px-12 mt-2 mr-2'>
             {["Blue Ocean", "Corporation", "Presentations"].map((item, index)=>{
                 return (              
             
@@ -74,8 +78,8 @@ function LandingPage() {
                     MAKE YOUR AUDIENCE SAY</h1></div>
             <div className='p-1  lg:p-3 w-full justify-between items-center'>
         
-            <h1 className='text-5xl font-extrabold  text-bold lg:text-9xl lg:p-3 lg:w-full'>“Quality and Innovation</h1>
-            <h1 className='text-5xl font-extrabold lg:text-9xl lg:p-3 lg:w-full'>For a Better Tomorrow</h1>
+            <h1 data-aos="zoom-in-up" className='text-5xl font-extrabold text-black text-bold lg:text-9xl lg:p-3 lg:w-full'>“Quality and Innovation</h1>
+            <h1 data-aos="zoom-in-up" className='text-5xl font-extrabold text-black lg:text-9xl lg:p-3 lg:w-full'>For a Better Tomorrow</h1>
 
         </div>
 
