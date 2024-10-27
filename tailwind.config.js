@@ -7,6 +7,11 @@ export default {
   theme: {
   
     extend: {
+       
+      fontFamily:{
+        'Faizan-font':['Inter', 'sans-serif']
+      },
+
       animation: {
         "meteor-effect": "meteor 5s linear infinite",
       },

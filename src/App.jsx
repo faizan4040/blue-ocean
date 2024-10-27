@@ -9,14 +9,12 @@ import Navbar from './components/Navbar/Navbar'
 import Asia from './components/ScrollHorizontal/Asia'
 import ScrollHorizontal from './components/ScrollHorizontal/ScrollHorizontal'
 import Videopage from './components/VideoPage/Videopage'
-// import LocomotiveScroll from 'locomotive-scroll';
 
 
 function App() {
 
     
 
-  // const locomotiveScroll = new LocomotiveScroll();
   
 
   return (

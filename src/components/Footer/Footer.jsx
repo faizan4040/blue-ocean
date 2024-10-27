@@ -8,9 +8,9 @@ function Eyes() {
 
   return (
 
-<div data-aos="fade-out" className='w-full bg-metal bg-zinc-900 text-white mx-auto py-4 px-12 grid lg:grid-cols-4 sm:grid-cols-2 gap-5 overflow-hidden  lg:h-[130vh]'>
+<div  className='w-full bg-metal bg-zinc-900 text-white mx-auto py-4 px-12 grid lg:grid-cols-4 sm:grid-cols-2 gap-5 overflow-hidden  lg:h-[130vh]'>
 
-  <div id="CArd-1"  className=''>
+  <div data-aos="fade" id="CArd-1"  className=''>
 
   <div className=" w-full relative max-w-xs">
         <div className="absolute inset-0 h-full w-full bg-gradient-to-r from-blue-500 to-teal-500 transform scale-[0.80] bg-red-500 rounded-full blur-3xl" />
@@ -65,7 +65,7 @@ function Eyes() {
 
 
 
-  <div id='card-2' className=''>
+  <div data-aos="fade" id='card-2' className=''>
   <div className=" w-full relative max-w-xs">
         <div className="absolute inset-0 h-full w-full bg-gradient-to-r from-blue-500 to-teal-500 transform scale-[0.80] bg-red-500 rounded-full blur-3xl" />
         <div className="relative shadow-xl bg-gray-900 border border-gray-800  px-4 py-8 h-full overflow-hidden rounded-2xl flex flex-col justify-end items-start">
@@ -118,7 +118,7 @@ function Eyes() {
 
 
 
-  <div id="card-3" className=''>
+  <div data-aos="fade" id="card-3" className=''>
   <div className=" w-full relative max-w-xs">
         <div className="absolute inset-0 h-full w-full bg-gradient-to-r from-blue-500 to-teal-500 transform scale-[0.80] bg-red-500 rounded-full blur-3xl" />
         <div className="relative shadow-xl bg-gray-900 border border-gray-800  px-4 py-8 h-full overflow-hidden rounded-2xl flex flex-col justify-end items-start">
@@ -172,7 +172,7 @@ function Eyes() {
 
 
 
-  <div id='card-4' className=''>
+  <div data-aos="fade" id='card-4' className=''>
   <div className=" w-full relative max-w-xs">
         <div className="absolute inset-0 h-full w-full bg-gradient-to-r from-blue-500 to-teal-500 transform scale-[0.80] bg-red-500 rounded-full blur-3xl" />
         <div className="relative shadow-xl bg-gray-900 border border-gray-800  px-4 py-8 h-full overflow-hidden rounded-2xl flex flex-col justify-end items-start">
@@ -226,7 +226,7 @@ function Eyes() {
 
 
 
-    <div id='card-4' className=''>
+    <div data-aos="fade" id='card-5' className=''>
   <div className=" w-full relative max-w-xs">
         <div className="absolute inset-0 h-full w-full bg-gradient-to-r from-blue-500 to-teal-500 transform scale-[0.80] bg-red-500 rounded-full blur-3xl" />
         <div className="relative shadow-xl bg-gray-900 border border-gray-800  px-4 py-8 h-full overflow-hidden rounded-2xl flex flex-col justify-end items-start">
@@ -281,7 +281,7 @@ function Eyes() {
 
 
 
-    <div id='card-4' className=''>
+    <div data-aos="fade" id='card-6' className=''>
   <div className=" w-full relative max-w-xs">
         <div className="absolute inset-0 h-full w-full bg-gradient-to-r from-blue-500 to-teal-500 transform scale-[0.80] bg-red-500 rounded-full blur-3xl" />
         <div className="relative shadow-xl bg-gray-900 border border-gray-800  px-4 py-8 h-full overflow-hidden rounded-2xl flex flex-col justify-end items-start">
@@ -335,7 +335,7 @@ function Eyes() {
 
 
 
-    <div id='card-4' className=''>
+    <div data-aos="fade" id='card-7' className=''>
   <div className=" w-full relative max-w-xs">
         <div className="absolute inset-0 h-full w-full bg-gradient-to-r from-blue-500 to-teal-500 transform scale-[0.80] bg-red-500 rounded-full blur-3xl" />
         <div className="relative shadow-xl bg-gray-900 border border-gray-800  px-4 py-8 h-full overflow-hidden rounded-2xl flex flex-col justify-end items-start">

@@ -8,7 +8,7 @@ function Eyes() {
 
   return (
 
-<div data-aos="fade-out" className='w-full bg-metal bg-zinc-900 text-white mx-auto py-4 px-12 grid lg:grid-cols-4 sm:grid-cols-2 gap-5 overflow-hidden  lg:h-[80vh]'>
+<div data-aos="fade-out" className='w-full h-[220vh] bg-metal bg-zinc-900 text-white mx-auto py-4 px-12 grid lg:grid-cols-4 sm:grid-cols-2 gap-5 overflow-hidden  lg:h-[80vh]'>
 
   <div id="CArd-1"  className=''>
 

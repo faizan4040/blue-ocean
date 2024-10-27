@@ -10,7 +10,7 @@ AOS.init()
 function LandingPage() {
     
   return (
-    <div className='bg-zinc-900 p-10 pr-0 !scroll-smooth'>
+    <div className='bg-zinc-900 p-10 pr-0 !scroll-smooth truncate'>
         <div  className='bg-zinc-200 lg:ml-20 lg:p-0.4 mt-20 z-[1] rounded-l-lg '>
     <div className='w-full'>
         <div data-aos="slide-left" className='textstructure px-12 mt-2 mr-2'>
@@ -69,17 +69,19 @@ function LandingPage() {
                <div className='object-cover mt-22 h-[70vh]'>
                <video autoPlay loop muted playsInline className='h-[50vh] w-[50vw] p-4 ml-8'>
                 <source src={Video1} type="video/mp4"/> 
-                 </video>
+                </video>
                 </div>
 
                </div>
 
-                <div><h1 className='text-bold text-2xl justify-between items-center w-full p-10'>
+                <div className='w-full justify-between items-center lg:pl-60'>
+                    <h1 className='text-bold text-2xl lg:text-4xl p-10'>
                     MAKE YOUR AUDIENCE SAY</h1></div>
-            <div className='p-1  lg:p-3 w-full justify-between items-center'>
+            <div className='p-1 lg:p-4 w-full justify-between items-center'>
         
-            <h1 data-aos="zoom-in-up" className='text-5xl font-extrabold text-black text-bold lg:text-9xl lg:p-3 lg:w-full'>“Quality and Innovation</h1>
-            <h1 data-aos="zoom-in-up" className='text-5xl font-extrabold text-black lg:text-9xl lg:p-3 lg:w-full'>For a Better Tomorrow</h1>
+            <h1 data-aos="zoom-in-up" className='text-5xl font-extrabold text-black text-bold lg:text-8xl lg:p-5 lg:w-full '>“Quality and</h1>
+            <h1 data-aos="zoom-in-up" className='text-5xl font-extrabold text-black text-bold lg:text-8xl lg:p-3 lg:w-full'>Innovation</h1>
+            <h1 data-aos="zoom-in-up" className='text-3xl font-extrabold text-black text-bold p-2 lg:text-8xl lg:p-3 lg:w-full'>For a Better Tomorrow</h1>
 
         </div>
 

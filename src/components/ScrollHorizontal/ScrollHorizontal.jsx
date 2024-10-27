@@ -72,17 +72,18 @@ function ScrollHorizontal() {
 
 
           <div className="scroll-section bg-zinc-900 flex">
-           
-           <div className="w-1/2">
-           <h1 data-aos="zoom-in-up" className="text-4xl lg:text-7xl uppercase text-cyan-400 font-bold">Great Place To Work</h1>
-           <h1 data-aos="zoom-in-up" className="text-4xl lg:text-7xl uppercase text-white font-bold">Best Workplaces Asia</h1>
-           <h1 data-aos="zoom-in-up" className="text-4xl lg:text-7xl uppercase text-cyan-400 font-bold">2024</h1>
-           </div>
 
-           <div className="w-1/3 h-[70vh]">
+          <div className="w-1/3 h-[80vh]">
            <img src={Asia}></img>
 
+           </div>           
+           <div className="w-1/2">
+           <h1 data-aos="zoom-in-up" className="text-3xl lg:text-7xl uppercase text-cyan-400 font-bold">Great Place To Work</h1>
+           <h1 data-aos="zoom-in-up" className="text-3xl lg:text-7xl uppercase text-white font-bold">Best Workplaces Asia</h1>
+           <h1 data-aos="zoom-in-up" className="text-3xl lg:text-7xl uppercase text-cyan-400 font-bold">2024</h1>
            </div>
+
+     
 
        </div>
 
@@ -99,9 +100,9 @@ function ScrollHorizontal() {
 
           <div className="w-[50%] lg:w-[100vh] p-4 pt-5">
           <h1 className="text-4xl  lg:text-7xl uppercase text-white font-bold">Winner of the year 2023</h1>
-              <h1 data-aos="zoom-in-up" className="text-4xl  lg:text-7xl uppercase text-green-400 font-bold">Dubai Quality</h1>
-              <h1 data-aos="zoom-in-up" className="text-4xl  lg:text-7xl uppercase text-green-400 font-bold">Appreciation</h1>
-              <h1 data-aos="zoom-in-up" className="text-4xl lg:text-7xl uppercase text-green-400 font-bold">Award</h1>
+              <h1 data-aos="zoom-in-up" className="text-3xl  lg:text-7xl uppercase text-green-400 font-bold">Dubai Quality</h1>
+              <h1 data-aos="zoom-in-up" className="text-3xl  lg:text-7xl uppercase text-green-400 font-bold">Appreciation</h1>
+              <h1 data-aos="zoom-in-up" className="text-3xl  lg:text-7xl uppercase text-green-400 font-bold">Award</h1>
 
               </div>
 
