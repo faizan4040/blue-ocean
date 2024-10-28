@@ -12,9 +12,6 @@ import Videopage from './components/VideoPage/Videopage'
 
 
 function App() {
-
-    
-
   
 
   return (
